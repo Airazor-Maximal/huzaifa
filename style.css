@@ -15,11 +15,38 @@ html{
 }
 .data{
     background-image: url(education.jpg);
+    display: flex;
 
 }
 .data_2{
     background-image: url(skill.jpg);
 }
+.skill{
+    margin:5vw;
+    height: 80vh;
+    width:20vw;
+    border: 1px solid #b74b4b;
+    padding: 3%;
+    box-shadow: 0 0 25px  #b74b4b;
+}
+.skill:hover{
+    background-color: rgba(255, 255, 255, 0.356);
+}
+.text{
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 body{
     width: 100%;
