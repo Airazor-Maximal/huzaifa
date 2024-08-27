@@ -13,24 +13,46 @@
 html{
     font-size: 62.5%;
 }
-.data{
+.page_3{
     background-image: url(education.jpg);
     display: flex;
 
 }
-.data_2{
+.page_2{
     background-image: url(skill.jpg);
+    display: flex;
 }
-.skill{
-    margin:5vw;
+.page_4{
+    background-image: url(acheivement.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+}
+.box{
+    margin:3vw;
     height: 80vh;
-    width:20vw;
+    width:30vw;
     border: 1px solid #b74b4b;
-    padding: 3%;
+    padding: 1%;
     box-shadow: 0 0 25px  #b74b4b;
 }
-.skill:hover{
-    background-color: rgba(255, 255, 255, 0.356);
+.box:hover{
+    background-color: rgba(255, 255, 255, 0.226);
+}
+.box_a{
+    margin:10vw;
+    margin-bottom: 0;
+    margin-top: 4vw;
+    height: 80vh;
+    width:60vw;
+    border: 1px solid #b74b4b;
+    padding: 1%;
+    box-shadow: 0 0 25px  #b74b4b;
+}
+.box_a:hover{
+    background-color: rgba(255, 255, 255, 0.226);
 }
 .text{
     font-size: 15px;
@@ -98,9 +120,9 @@ nav a.active{
     border-bottom: 3px solid #b74b4b;
 }
 
-@media(max-width:995px){
+@media(max-width:70px){
     nav{
-        position: absolute;
+        position:absolute;
         display: none;
         top: 0;
         right: 0;
@@ -262,26 +284,24 @@ span{
 
 @keyframes cursor{
     to{
-        border-left: 3px solid #b74b4b;
+        border-left: 1px solid #000000;
     }
 }
 
 @keyframes words{
-    0%, 20%{
+    0%, 25%{
         content: "Student";
     }
-    21%, 40%{
-        content: "KPCIAN";
+    26%, 50%{
+        content: "Kpcian";
     }
-    41%, 60%{
+    51%, 75%{
+        content: "Bangladeshi";
+    }
+    76%, 100%{
         content: "Python Learner";
     }
-    61%, 80%{
-        content: "Programmer";
-    }
-    81%, 100%{
-        content: "Circuit Designer";
-    }
+    
 }
 
 @media (max-width: 1000px){
